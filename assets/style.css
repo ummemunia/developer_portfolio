@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&display=swap');
+
+/* common style */
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', serif;
+}
+
+/* nav start */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+nav h3 span{
+    color: #FD6E0A;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+ul li a{
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+}
+ul li button{
+    border-radius: 5px;
+    background-color: #FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px 35px;
+}
