@@ -178,3 +178,46 @@ main section {
     color: #757575;
     font-size: 16px;
 }
+
+/* resume start */
+.resume {}
+
+.resume-container {
+    display: flex;
+    gap: 70px;
+}
+
+.resume-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 50px;
+}
+
+.degree-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.degree-year {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.degree-description {
+    color: #757575;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.download-cv {
+    text-align: center;
+    margin-top: 50px;
+}
