@@ -236,6 +236,9 @@ footer{
 .footer-column{
     width: 50%;
 }
+.footer-column .section-title{
+    text-align: left;
+}
 .contact input[type="text"], .contact input[type="email"],
 .contact textarea {
     display: block;
