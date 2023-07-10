@@ -180,7 +180,7 @@ main section {
 }
 
 /* resume start */
-.resume {}
+
 
 .resume-container {
     display: flex;
@@ -220,4 +220,12 @@ main section {
 .download-cv {
     text-align: center;
     margin-top: 50px;
+}
+
+/* footer start */
+footer{
+    display: flex;
+    background-color: #FFF8F3;
+    margin-top: 100px;
+    padding: 130px 200px;
 }
