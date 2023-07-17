@@ -99,7 +99,7 @@ ul li a {
     margin-bottom: 20px;
 }
 
-img .profile-pic {
+.banner .profile-pic {
     width: 584px;
 }
 
@@ -272,14 +272,73 @@ footer {
     }
 
     .about,
-    .what-i-do-description {
-        padding: 30px 20px 40px;
-
+    .what-i-do-description,
+    .resume,
+    footer {
+        /* padding: 30px 20px 40px; */
+        padding: 10px;
     }
 
+    /* nav {
+        margin: 0px 0px;
+    } */
+
+    nav,
+    .banner,
     .about-info-container,
-    .skills-container {
+    .skills-container,
+    .resume-container,
+    footer {
         flex-direction: column;
+    }
+
+    ul li {
+        margin-right: 15px;
+        font-size: 22px;
+    }
+
+    ul li a {
+        font-size: 30px;
+    }
+
+    nav .btn-primary {
+        padding: 15px 10px;
+    }
+
+    .header {
+        background-image: url("images/header_bg.png"), url("images/developer.png");
+        background-position: bottom left, center left;
+    }
+
+    .banner {
+        padding: 10px 10px 0px;
+    }
+
+    .banner-content {
+        max-width: 300px;
+        text-align: center;
+    }
+
+    .banner-content .btn-primary {
+        margin-bottom: 10px;
+    }
+
+    .banner-greet,
+    .banner-title,
+    .banner-description {
+        text-align: center;
+    }
+
+    .banner-description {
+        font-size: 25px;
+    }
+
+    .banner .profile-pic {
+        width: 100%;
+    }
+
+    .resume-container {
+        gap: 0px;
     }
 
     .skill {
@@ -289,6 +348,22 @@ footer {
     .info-description {
         text-align: center;
         margin-bottom: 5px;
+    }
+
+    .degree-description {
+        font-size: 18px;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .contact input[type="text"],
+    .contact input[type="email"],
+    .contact textarea {
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 25px;
     }
 }
 
@@ -302,27 +377,59 @@ footer {
     }
 
     .about,
-    .what-i-do-description {
+    .what-i-do-description,
+    .resume,
+    footer {
         padding: 30px 20px 40px;
     }
-
+    .banner,
     .about-info-container,
-    .skills-container {
+    .skills-container,
+    .resume-container,
+    footer {
         display: flex;
         flex-wrap: wrap;
-        padding-right: 10px;
+    }
+    nav {
+        margin: 0px 70px 0px 30px;
+    }
+    .banner-description {
+        font-size: 25px;
+    }
+    .banner .profile-pic {
+        width: 100%;
     }
 
     .info-description {
         text-align: center;
     }
+
+    .resume-container {
+        gap: 0px;
+    }
+
     .skill {
         margin: 0 auto;
     }
+
     .skill-title {
         font-size: 22px;
     }
-    .skill-description {
+
+    .skill-description,
+    .degree-description {
         font-size: 18px;
     }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .contact input[type="text"],
+    .contact input[type="email"],
+    .contact textarea {
+        width: 88%;
+        margin-bottom: 25px;
+    }
+
 }
